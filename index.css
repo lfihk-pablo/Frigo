@@ -1,0 +1,56 @@
+html, body{
+	padding: 10px;
+	background-image: url("bg.jpg");
+	background-size: 100%;
+}
+
+.container{
+	text-align: center;
+
+}
+
+#logo{
+	display: block;
+	width: 450pt;
+	margin: 0 auto;
+	padding-top: 300px;
+	padding-bottom: 200px;
+}
+
+#foodInput{
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+	height: 55px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-color: black;
+	color: white;
+	font-size: 24px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+::-webkit-input-placeholder{
+	color: white;
+	padding-left: 7px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+}
+
+#search{
+	/*background-color: #1b96fe;*/
+	transition: background-color 0.2s ease;
+	border-style: solid;
+	border-color: #1b96fe;
+	border-width: 5px;
+	height: 60px;
+	width: 200px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 100px;
+	outline: none;
+	color: white;
+	background-color: #1b96fe;
+}
+
